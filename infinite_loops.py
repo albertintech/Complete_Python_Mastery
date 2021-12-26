@@ -1,0 +1,7 @@
+# pylint: disable=invalid-name, missing-docstring
+
+while True:
+    command = input(">")
+    print("ECHO:", command)
+    if command.lower() == "quit":
+        break
