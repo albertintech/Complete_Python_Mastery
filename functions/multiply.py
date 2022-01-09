@@ -5,7 +5,7 @@ def multiply(*numbers):
     total = 1
     for number in numbers:
         total *= number
-    return total
+    return total # move this line to the right to demo error
 
 print("Start")
 print(multiply(1,2,3))
